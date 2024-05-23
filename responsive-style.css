@@ -1,0 +1,182 @@
+@media (max-width:991px) {
+    section {
+        padding: 30px 0
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav{
+        text-align:center;
+        background-color: var(--primary-color);
+        padding-bottom: 15px;
+    }
+    
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+    .banner_wrapper {
+        padding: 200px 0;
+    }
+    .services_wrapper .card {
+        min-height: 400px;
+    }
+    .services_wrapper .media-width {
+        padding-left: 50px
+    }
+    .copyright-text {
+        padding-right: 80px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .social-icons {
+        text-align:center
+    }
+    .social-icons li.title{
+        display:block;
+        margin-right:0;
+        font-weight:600
+    }
+    .services_wrapper .card {
+        min-height: 500px;
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+        .pkg-1 {
+            background-color: #560f3b;
+            border-radius: 20px;
+            width: 80%;
+            height: 100%;
+            margin-right: 0;
+            padding-right: 0;
+            align-items: center;
+        }
+        .pkg-2 {
+            background-color: #fff709;
+            border-radius: 20px;
+            width: 80%;
+            height: 100%;
+            margin-right: 0;
+            padding-right: 0;
+            align-items: center;
+        }
+        .pkg-3 {
+            background-color: #350a4c;
+            border-radius: 20px;
+            width: 80%;
+            height: 100%;
+            margin-right: 0;
+            padding-right: 0;
+            align-items: center;
+        }
+
+        .pkg-4 {
+            background-color: #fff709;
+            border-radius: 20px;
+            width: 90%;
+            height: 100%;
+        }
+        .pkg-5 {
+            background-color: #350a4c;
+            border-radius: 20px;
+            width: 90%;
+            height: 100%;
+        }
+
+
+        .learn-mr {
+            background-image: url('../images/services/logo.png');
+            height: 340px;
+            width: 340px;
+        }
+        .learn-mr:hover {
+            cursor: pointer;
+            height: 340px;
+            width: 340px;
+        }
+        .learn-mr-ol {
+            background-image: url('./images/services/overlay.jpg');
+            height: 340px;
+            width: 340px;
+        }
+        
+        .learn-mr-ol:hover {
+            cursor: pointer;
+            height: 340px;
+            width: 340px;
+        }
+        
+        .learn-mr-br {
+            background-image: url('./images/services/banner.png');
+            height: 340px;
+            width: 340px;
+        }
+        
+        .learn-mr-br:hover {
+            cursor: pointer;
+            height: 340px;
+            width: 340px;
+        }
+        #portfolio h2 span {
+            font-size: 30px;
+        }
+        h1 span {
+            font-size: 55px;
+            font-weight: 800;
+        }
+        p span {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .paypal {
+            width: 50px;
+        }
+        .zelle {
+            width: 80px;
+        }
+        .cash-app {
+            width: 115px;
+        }
+        .social-icons {
+            display: inline;
+        }
+        .social-icons .ps-5 {
+            padding-right: 50px;
+        }
+}
